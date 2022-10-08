@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cat $1 | ./bbcfc > $1.c
+cat $1 | bbcfc > $1.c
 cc -o $1.out $1.c
